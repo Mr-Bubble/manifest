@@ -9,27 +9,8 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/external/selinux" />
-  <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/bt" />
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/ril" />
-  <remove-project name="platform/hardware/interfaces" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/packages/apps/DeskClock" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/tools/hidl" />
   
  <!--Repositories to fetch-->
   <!--Upstream-->
@@ -37,28 +18,8 @@
   <project name="Fabulous-Oreo/build_soong" path="build/soong" revision="oreo" remote="github" />
   <project name="Fabulous-Oreo/bootable_recovery" path="bootable/recovery" revision="oreo" remote="github" />
   <project name="Fabulous-Oreo/external_selinux" path="external/selinux" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/frameworks_av" path="frameworks/av" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/frameworks_base" path="frameworks/base" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/frameworks_native" path="frameworks/native" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/hardware_qcom_camera" path="hardware/qcom/camera" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/hardware_qcom_wlan" path="hardware/qcom/wlan" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/hardware_qcom_media" path="hardware/qcom/media" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/hardware_qcom_display" path="hardware/qcom/display" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/hardware_qcom_bt" path="hardware/qcom/bt" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/hardware_qcom_audio" path="hardware/qcom/audio" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/hardware_ril" path="hardware/ril" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/hardware_interfaces" path="hardware/interfaces" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/hardware_libhardware" path="hardware/libhardware" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/packages_apps_DeskClock" path="packages/apps/DeskClock" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/packages_apps_Settings" path="packages/apps/Settings" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/packages_apps_Snap-bacon" path="packages/apps/Snap-bacon" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/packages_providers_MediaProvider" path="packages/providers/MediaProvider" revision="oreo" remote="github" />
   <project name="Fabulous-Oreo/system_core" path="system/core" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/system_vold" path="system/vold" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/system_bt" path="system/bt" revision="oreo" remote="github" />
   <project name="Fabulous-Oreo/system_sepolicy" path="system/sepolicy" revision="oreo" remote="github" />
-  <project name="Fabulous-Oreo/system_tools_hidl" path="system/tools/hidl" revision="oreo" remote="github" />
   <project name="Fabulous-Oreo/device_oppo_common" path="device/oppo/common" revision="oreo" remote="github" />
   <project name="Fabulous-Oreo/external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="oreo" remote="github" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="cm-14.1" remote="github" />
@@ -67,6 +28,5 @@
   <!--Custom-->
   <project path="device/oneplus/bacon" name="Fabulous-Oreo/device_oneplus_bacon" revision="oreo" remote="github" />
   <project path="kernel/oneplus/msm8974" name="Mr-Bubble/android_kernel_oneplus_msm8974-Oreo" revision="oreo" remote="github" />
-  <project path="vendor/oneplus" name="Fabulous-Oreo/vendor_oneplus" revision="oreo" remote="github" />
 
 </manifest>
